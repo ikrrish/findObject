@@ -8,13 +8,17 @@
 import UIKit
 
 class GamePage: UIViewController {
-
+    
     var firstNumber = 0
     var secondNumber = 0
     var difficulty = 100
     var score = 0
     var highScore = UserDefaults.standard.integer(forKey: "highScore")
-
+    
+    //    @IBOutlet weak var b4: UIButton!
+    //    @IBOutlet weak var b3: UIButton!
+    //    @IBOutlet weak var b2: UIButton!
+    //    @IBOutlet weak var b1: UIButton!
     @IBOutlet weak var labelOfScore: UILabel!
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
@@ -53,25 +57,25 @@ class GamePage: UIViewController {
                 self.gameover()
                 self.alert(score: self.score, highScore: self.highScore)
                 self.score = 0
-             
+                
             }})
     }
-
+    
     func generated(){
         firstNumber = Int.random(in: 30...599)
         secondNumber = Int.random(in: 75...250)
         label1.text = "\(firstNumber)"
         label2.text = "\(secondNumber)"
-             let plus = firstNumber + secondNumber
-             let minus = firstNumber - secondNumber
-             let multi = firstNumber * secondNumber
-             let divide = firstNumber / secondNumber
-             var array = [plus,multi,minus,divide]
-             var question = array.randomElement()
-             var answer = question
-             labelOfAnswers.text = "\(answer!)"
+        let plus = firstNumber + secondNumber
+        let minus = firstNumber - secondNumber
+        let multi = firstNumber * secondNumber
+        let divide = firstNumber / secondNumber
+        var array = [plus,multi,minus,divide]
+        var question = array.randomElement()
+        var answer = question
+        labelOfAnswers.text = "\(answer!)"
     }
-
+    
     @IBAction func plusButton(_ sender: UIButton){
         
         if labelOfAnswers.text == "\(firstNumber + secondNumber)"{
@@ -81,14 +85,14 @@ class GamePage: UIViewController {
             setup()
             
         }
-            else
-                {
-                    time.invalidate()
-                    gameover()
-                    alert(score:score,highScore:highScore)
-                    score = 0
-                 
-                }
+        else
+        {
+            time.invalidate()
+            gameover()
+            alert(score:score,highScore:highScore)
+            score = 0
+            
+        }
         
         
     }
@@ -97,15 +101,15 @@ class GamePage: UIViewController {
             time.invalidate()
             score+=1
             setup()
-           
+            
         }
         else{
             time.invalidate()
             gameover()
             alert(score:score,highScore:highScore)
             score = 0
-  
-
+            
+            
         }
         
     }
@@ -121,8 +125,8 @@ class GamePage: UIViewController {
             gameover()
             alert(score:score,highScore:highScore)
             score = 0
-    
-
+            
+            
         }
         
     }
@@ -139,11 +143,11 @@ class GamePage: UIViewController {
             gameover()
             alert(score:score,highScore:highScore)
             score = 0
-        
+            
         }
         
     }
-
+    
     func alert(score:Int,highScore:Int){
         let alert = UIAlertController.init(title: "GAME OVER", message: "\nScore = \(score) \n\nHighScore = \(highScore)", preferredStyle: .alert)
         alert.addAction(UIAlertAction.init(title: "HOME", style: .default, handler: {i in self.navigateToHome()}))
@@ -158,12 +162,12 @@ class GamePage: UIViewController {
         }
     }
     func navigateToHome(){
-           let nv = storyboard?.instantiateViewController(withIdentifier: "Modepage") as! Modepage
-           navigationController?.popViewController(animated: true)
-       }
-       func navigateToRetry(){
-           setup()
-       }
+        let nv = storyboard?.instantiateViewController(withIdentifier: "Modepage") as! Modepage
+        navigationController?.popViewController(animated: true)
+    }
+    func navigateToRetry(){
+        setup()
+    }
     
     
 }

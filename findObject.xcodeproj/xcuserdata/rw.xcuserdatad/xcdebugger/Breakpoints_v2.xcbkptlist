@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CCC86945-D82A-4EC7-AFDD-B1ADBAB4BCB1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "findObject/Gamepage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "GamePage"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8 - 6ca54130e2ee366f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findObject.GamePage.firstNumber.getter : Swift.Int"
+                  moduleName = "findObject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rw/Documents/dhruvin2/kishan/findObject/findObject/Gamepage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8 - dc3d0401c97ffa7b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findObject.GamePage.firstNumber.setter : Swift.Int"
+                  moduleName = "findObject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rw/Documents/dhruvin2/kishan/findObject/findObject/Gamepage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8 - 52c8ed3294190898"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findObject.GamePage.firstNumber.modify : Swift.Int"
+                  moduleName = "findObject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rw/Documents/dhruvin2/kishan/findObject/findObject/Gamepage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8 - 858521d1b8508b7b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findObject.GamePage.firstNumber.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "findObject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rw/Documents/dhruvin2/kishan/findObject/findObject/Gamepage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8 - a7b635167b884845"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findObject.GamePage.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; findObject.GamePage"
+                  moduleName = "findObject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rw/Documents/dhruvin2/kishan/findObject/findObject/Gamepage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "FC071014-FD7B-4FE5-9B9D-73F2A25AD0B8 - 94d6190edd05b042"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findObject.GamePage.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;findObject.GamePage&gt;"
+                  moduleName = "findObject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rw/Documents/dhruvin2/kishan/findObject/findObject/Gamepage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "199">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
