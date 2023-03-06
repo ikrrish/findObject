@@ -13,6 +13,8 @@
 		D366C3E429AD31150031BC61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D366C3E229AD31150031BC61 /* Main.storyboard */; };
 		D366C3E629AD31160031BC61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D366C3E529AD31160031BC61 /* Assets.xcassets */; };
 		D366C3E929AD31160031BC61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D366C3E729AD31160031BC61 /* LaunchScreen.storyboard */; };
+		D366C3F129AD3CEF0031BC61 /* Modepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D366C3F029AD3CEF0031BC61 /* Modepage.swift */; };
+		D366C3F329AD3D420031BC61 /* Gamepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D366C3F229AD3D420031BC61 /* Gamepage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D366C3E529AD31160031BC61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D366C3E829AD31160031BC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D366C3EA29AD31160031BC61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D366C3F029AD3CEF0031BC61 /* Modepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modepage.swift; sourceTree = "<group>"; };
+		D366C3F229AD3D420031BC61 /* Gamepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamepage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D366C3DE29AD31150031BC61 /* SceneDelegate.swift */,
 				D366C3E029AD31150031BC61 /* ViewController.swift */,
 				D366C3E229AD31150031BC61 /* Main.storyboard */,
+				D366C3F229AD3D420031BC61 /* Gamepage.swift */,
+				D366C3F029AD3CEF0031BC61 /* Modepage.swift */,
 				D366C3E529AD31160031BC61 /* Assets.xcassets */,
 				D366C3E729AD31160031BC61 /* LaunchScreen.storyboard */,
 				D366C3EA29AD31160031BC61 /* Info.plist */,
@@ -141,6 +147,8 @@
 				D366C3E129AD31150031BC61 /* ViewController.swift in Sources */,
 				D366C3DD29AD31150031BC61 /* AppDelegate.swift in Sources */,
 				D366C3DF29AD31150031BC61 /* SceneDelegate.swift in Sources */,
+				D366C3F129AD3CEF0031BC61 /* Modepage.swift in Sources */,
+				D366C3F329AD3D420031BC61 /* Gamepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
